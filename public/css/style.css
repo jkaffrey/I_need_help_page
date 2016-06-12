@@ -646,6 +646,12 @@ body {
     position: relative;
     font-size: 18px; }
 
+.item-post-time {
+  font-size: 12px;
+  padding: 1px;
+  margin: 1px;
+}
+
 .title-label {
   position: relative;
   float: left;
