@@ -30,10 +30,10 @@ firebase.auth().onAuthStateChanged(function(user) {
 * Used in the date format to add 0's infront of numbers
 */
 
-Number.prototype.padLeft = function(base,chr){
+Number.prototype.padLeft = function(base,chr) {
   var  len = (String(base || 10).length - String(this).length)+1;
   return len > 0? new Array(len).join(chr || '0')+this : this;
-}
+};
 
 function runApp(user) {
 

@@ -27,6 +27,8 @@
         <div class="form-body">
             <label class="new-question title-label">Question Body</label>
             <textarea id="body" class="new-question-area"></textarea>
+            <label class="new-question img-label">Image (Optional):</label>
+            <input type="file" name="image-upload" id="imgUpload" onchange="readURL(this);"/>
         </div>
         <div class="btn submit-form" id="submit-form">
 
